@@ -1,0 +1,5 @@
+]0;/home/rstudio/snippets]0;rstudio@ip-172-31-32-6: ~/snippets[01;32mrstudio@ip-172-31-32-6[00m:[01;34m~/snippets[00m$ [K]0;rstudio@ip-172-31-32-6: ~/snippets[01;32mrstudio@ip-172-31-32-6[00m:[01;34m~/snippets[00m$ echo $EDITOR
+vi
+]0;/home/rstudio/snippets]0;rstudio@ip-172-31-32-6: ~/snippets[01;32mrstudio@ip-172-31-32-6[00m:[01;34m~/snippets[00m$ git init
+Reinitialized existing Git repository in /home/rstudio/snippets/.git/
+]0;/home/rstudio/snippets]0;rstudio@ip-172-31-32-6: ~/snippets[01;32mrstudio@ip-172-31-32-6[00m:[01;34m~/snippets[00m$ git add .
