@@ -82,3 +82,61 @@ Branch master set up to track remote branch master from origin.
 ]0;/home/rstudio/snippets]0;rstudio@ip-172-31-32-6: ~/snippets[01;32mrstudio@ip-172-31-32-6[00m:[01;34m~/snippets[00m$ git init
 Reinitialized existing Git repository in /home/rstudio/snippets/.git/
 ]0;/home/rstudio/snippets]0;rstudio@ip-172-31-32-6: ~/snippets[01;32mrstudio@ip-172-31-32-6[00m:[01;34m~/snippets[00m$ git add .
+]0;/home/rstudio/snippets]0;rstudio@ip-172-31-32-6: ~/snippets[01;32mrstudio@ip-172-31-32-6[00m:[01;34m~/snippets[00m$ git commit
+[master 83c6813] push 2#
+ Committer: Timag <rstudio@ip-172-31-32-6.eu-central-1.compute.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 18 files changed, 273 insertions(+), 20 deletions(-)
+ rewrite .Rproj.user/DEB949EA/console06/INDEX001 (100%)
+ create mode 100644 .gitignore
+ create mode 100644 R/addSnippet.R
+ create mode 100644 R/app.R
+ create mode 100644 R/writeToSnippets.R
+ create mode 100644 inst/rstudio/addins.dcf
+]0;/home/rstudio/snippets]0;rstudio@ip-172-31-32-6: ~/snippets[01;32mrstudio@ip-172-31-32-6[00m:[01;34m~/snippets[00m$ git push -u origin master
+error: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': Timag
+error: cannot run rpostback-askpass: No such file or directory
+Password for 'https://Timag@github.com': 
+Counting objects: 29, done.
+Compressing objects:   4% (1/24)   Compressing objects:   8% (2/24)   Compressing objects:  12% (3/24)   Compressing objects:  16% (4/24)   Compressing objects:  20% (5/24)   Compressing objects:  25% (6/24)   Compressing objects:  29% (7/24)   Compressing objects:  33% (8/24)   Compressing objects:  37% (9/24)   Compressing objects:  41% (10/24)   Compressing objects:  45% (11/24)   Compressing objects:  50% (12/24)   Compressing objects:  54% (13/24)   Compressing objects:  58% (14/24)   Compressing objects:  62% (15/24)   Compressing objects:  66% (16/24)   Compressing objects:  70% (17/24)   Compressing objects:  75% (18/24)   Compressing objects:  79% (19/24)   Compressing objects:  83% (20/24)   Compressing objects:  87% (21/24)   Compressing objects:  91% (22/24)   Compressing objects:  95% (23/24)   Compressing objects: 100% (24/24)   Compressing objects: 100% (24/24), done.
+Writing objects:   3% (1/29)   Writing objects:   6% (2/29)   Writing objects:  10% (3/29)   Writing objects:  13% (4/29)   Writing objects:  17% (5/29)   Writing objects:  20% (6/29)   Writing objects:  24% (7/29)   Writing objects:  27% (8/29)   Writing objects:  31% (9/29)   Writing objects:  34% (10/29)   Writing objects:  37% (11/29)   Writing objects:  41% (12/29)   Writing objects:  44% (13/29)   Writing objects:  48% (14/29)   Writing objects:  51% (15/29)   Writing objects:  55% (16/29)   Writing objects:  58% (17/29)   Writing objects:  62% (18/29)   Writing objects:  65% (19/29)   Writing objects:  68% (20/29)   Writing objects:  72% (21/29)   Writing objects:  75% (22/29)   Writing objects:  79% (23/29)   Writing objects:  86% (25/29)   Writing objects:  89% (26/29)   Writing objects:  93% (27/29)   Writing objects:  96% (28/29)   Writing objects: 100% (29/29)   Writing objects: 100% (29/29), 5.36 KiB | 0 bytes/s, done.
+Total 29 (delta 9), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/9)   [Kremote: Resolving deltas:  22% (2/9)   [Kremote: Resolving deltas:  33% (3/9)   [Kremote: Resolving deltas:  44% (4/9)   [Kremote: Resolving deltas:  55% (5/9)   [Kremote: Resolving deltas:  66% (6/9)   [Kremote: Resolving deltas:  77% (7/9)   [Kremote: Resolving deltas:  88% (8/9)   [Kremote: Resolving deltas: 100% (9/9)   [Kremote: Resolving deltas: 100% (9/9), completed with 7 local objects.[K
+To https://github.com/Timag/snippets
+   bf6b4e3..83c6813  master -> master
+Branch master set up to track remote branch master from origin.
+]0;/home/rstudio/snippets]0;rstudio@ip-172-31-32-6: ~/snippets[01;32mrstudio@ip-172-31-32-6[00m:[01;34m~/snippets[00m$ 
+]0;/home/rstudio/snippets]0;rstudio@ip-172-31-32-6: ~/snippets[01;32mrstudio@ip-172-31-32-6[00m:[01;34m~/snippets[00m$ git push -u origin mastercommit[K[1Padd .[1Pinitadd .commit
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	[31mmodified:   .Rproj.user/DEB949EA/console06/A8EA2067[m
+	[31mmodified:   .Rproj.user/DEB949EA/pcs/source-pane.pper[m
+	[31mmodified:   .Rproj.user/DEB949EA/persistent-state[m
+	[31mmodified:   .Rproj.user/DEB949EA/sources/s-eb3708ef/lock_file[m
+	[31mmodified:   R/addSnippet.R[m
+
+no changes added to commit
+]0;/home/rstudio/snippets]0;rstudio@ip-172-31-32-6: ~/snippets[01;32mrstudio@ip-172-31-32-6[00m:[01;34m~/snippets[00m$ git commitpush -u origin mastercommit[K[1Padd .commit
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	[31mmodified:   .Rproj.user/DEB949EA/console06/A8EA2067[m
+	[31mmodified:   .Rproj.user/DEB949EA/pcs/source-pane.pper[m
+	[31mmodified:   .Rproj.user/DEB949EA/persistent-state[m
+	[31mmodified:   .Rproj.user/DEB949EA/sources/s-eb3708ef/lock_file[m
+	[31mmodified:   R/addSnippet.R[m
+
+no changes added to commit
+]0;/home/rstudio/snippets]0;rstudio@ip-172-31-32-6: ~/snippets[01;32mrstudio@ip-172-31-32-6[00m:[01;34m~/snippets[00m$ git commitpush -u origin mastercommit[K[1Padd .

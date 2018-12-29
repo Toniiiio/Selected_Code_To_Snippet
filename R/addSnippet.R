@@ -33,7 +33,8 @@ addSnippet <- function(){
     gadgetTitleBar("Add RStudio snippets"),
     miniContentPanel(
       textInput("snippetName", "Snippet Name:", name),
-      textInput("snippetCode", "Snippet Code:", code)
+      tags$style(type="text/css", "textarea {width:100%}"),
+      tags$textarea(id = "snippetCode", rows = 8, code)
     )
   )
 
@@ -45,7 +46,8 @@ addSnippet <- function(){
       stopApp()
     })
   }
-  viewer <- dialogViewer("Add RStudio snippets")
+  viewer <- dialogViewer("Edit snippet and press 'Done',...", width = 600,
+                         height = 320)
   runGadget(ui, server, viewer = viewer)
 }
 
