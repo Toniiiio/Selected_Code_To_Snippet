@@ -7,7 +7,7 @@ add <- function(snippetName, code, filePath = "~/.R/snippets/r.snippets"){
   idx <- grep("snippet ", data)
   takenNames <- sapply(strsplit(data[idx], "snippet "), "[", 2)
 
-  if(snippetName %in% takenNames) stop("snippetName is already taken, please choose another one")
+  if(snippetName %in% takenNames) return(FALSE)
 
   snippetNameIn <- paste("snippet", snippetName)
   code <- gsub("  ", "\t", code)
@@ -20,6 +20,7 @@ add <- function(snippetName, code, filePath = "~/.R/snippets/r.snippets"){
 
   write.table(file = filePath, data, row.names = FALSE, col.names = FALSE, quote = FALSE)
   file.edit(filePath)
+  return(TRUE)
 }
 
 SnippetName <- function(snippetName, filePath = "~/.R/snippets/r.snippets"){
@@ -29,9 +30,9 @@ SnippetName <- function(snippetName, filePath = "~/.R/snippets/r.snippets"){
   takenNames <- sapply(strsplit(data[idx], "snippet "), "[", 2)
 
   while(snippetName %in% takenNames){
-    snippetName <- paste0(snippetName, substring(snippetName, 3, 3))
+    snippetName <- paste0(snippetName, 1)
   }
-  return(snippetName)
+
 }
 
 addSnippet <- function(){
@@ -54,10 +55,17 @@ addSnippet <- function(){
   server <- function(input, output, session) {
 
     observeEvent(input$done, {
-      add(snippetName = input$snippetName,
-          code = input$snippetCode,
-          filePath = "~/.R/snippets/r.snippets")
-      stopApp()
+      added <- add(snippetName = input$snippetName,
+                   code = input$snippetCode,
+                   filePath = "~/.R/snippets/r.snippets")
+      if(added){
+        stopApp()
+      }else{
+        showModal(modalDialog(
+          title = "Snippet name taken",
+          "Please choose another snippet name. This one is taken!"
+        ))
+      }
     })
   }
 
