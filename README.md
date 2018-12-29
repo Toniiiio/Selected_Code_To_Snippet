@@ -6,7 +6,7 @@ This script enables you to (add/remove/read) snippets programmatically.
 
 **Usage:**
 
-![Addin]["Addins.png"]
+![alt text](Addins.png "Logo Title Text 1")
 
 ```
 addSnippet("test", "print('This is long code i dont want to retype everytime')")
