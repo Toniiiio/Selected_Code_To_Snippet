@@ -6,6 +6,8 @@ This script enables you to (add/remove/read) snippets programmatically.
 
 **Usage:**
 
+![Addin][Addins.png]
+
 ```
 addSnippet("test", "print('This is long code i dont want to retype everytime')")
 ```
