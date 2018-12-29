@@ -14,5 +14,6 @@
 #   Test Package:              'Ctrl + Shift + T'
 
 hello <- function() {
-  print("Hello, 199!")
+  print("Hello, 1992!")
 }
+

@@ -1,0 +1,4 @@
+Name: Add snippet
+Description: Inserts snippet.
+Binding: addSnippet
+Interactive: true

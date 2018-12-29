@@ -3,3 +3,82 @@ vi
 ]0;/home/rstudio/snippets]0;rstudio@ip-172-31-32-6: ~/snippets[01;32mrstudio@ip-172-31-32-6[00m:[01;34m~/snippets[00m$ git init
 Reinitialized existing Git repository in /home/rstudio/snippets/.git/
 ]0;/home/rstudio/snippets]0;rstudio@ip-172-31-32-6: ~/snippets[01;32mrstudio@ip-172-31-32-6[00m:[01;34m~/snippets[00m$ git add .
+]0;/home/rstudio/snippets]0;rstudio@ip-172-31-32-6: ~/snippets[01;32mrstudio@ip-172-31-32-6[00m:[01;34m~/snippets[00m$ gitc[K commit
+error: There was a problem with the editor 'vi'.
+Please supply the message using either -m or -F option.
+]0;/home/rstudio/snippets]0;rstudio@ip-172-31-32-6: ~/snippets[01;32mrstudio@ip-172-31-32-6[00m:[01;34m~/snippets[00m$ git commit
+
+[No write since last change]
+sh: 1: wq: not found
+
+shell returned 127
+
+Press ENTER or type command to continue
+[No write since last change]
+sh: 1: wq: not found
+
+shell returned 127
+
+Press ENTER or type command to continue
+[No write since last change]
+sh: 1: q: not found
+
+shell returned 127
+
+Press ENTER or type command to continue
+[master (root-commit) bf6b4e3] first commit
+ Committer: Timag <rstudio@ip-172-31-32-6.eu-central-1.compute.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 23 files changed, 225 insertions(+)
+ create mode 100644 .Rbuildignore
+ create mode 100644 .Rproj.user/DEB949EA/console06/A8EA2067
+ create mode 100644 .Rproj.user/DEB949EA/console06/A8EA2067.env
+ create mode 100644 .Rproj.user/DEB949EA/console06/INDEX001
+ create mode 100644 .Rproj.user/DEB949EA/cpp-definition-cache
+ create mode 100644 .Rproj.user/DEB949EA/pcs/debug-breakpoints.pper
+ create mode 100644 .Rproj.user/DEB949EA/pcs/files-pane.pper
+ create mode 100644 .Rproj.user/DEB949EA/pcs/source-pane.pper
+ create mode 100644 .Rproj.user/DEB949EA/pcs/windowlayoutstate.pper
+ create mode 100644 .Rproj.user/DEB949EA/pcs/workbench-pane.pper
+ create mode 100644 .Rproj.user/DEB949EA/persistent-state
+ create mode 100644 .Rproj.user/DEB949EA/saved_source_markers
+ create mode 100644 .Rproj.user/DEB949EA/sources/prop/C9D094F1
+ create mode 100644 .Rproj.user/DEB949EA/sources/prop/INDEX
+ create mode 100644 .Rproj.user/DEB949EA/sources/s-eb3708ef/E86EBACB
+ create mode 100644 .Rproj.user/DEB949EA/sources/s-eb3708ef/E86EBACB-contents
+ create mode 100644 .Rproj.user/DEB949EA/sources/s-eb3708ef/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 DESCRIPTION
+ create mode 100644 NAMESPACE
+ create mode 100644 R/hello.R
+ create mode 100644 man/hello.Rd
+ create mode 100644 snippets.Rproj
+]0;/home/rstudio/snippets]0;rstudio@ip-172-31-32-6: ~/snippets[01;32mrstudio@ip-172-31-32-6[00m:[01;34m~/snippets[00m$ git remote add origin https://github .com/username/reponame[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KTimag/snippets
+]0;/home/rstudio/snippets]0;rstudio@ip-172-31-32-6: ~/snippets[01;32mrstudio@ip-172-31-32-6[00m:[01;34m~/snippets[00m$ git push -u origin master
+error: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': Timag
+error: cannot run rpostback-askpass: No such file or directory
+Password for 'https://Timag@github.com': 
+Counting objects: 35, done.
+Compressing objects:   4% (1/23)   Compressing objects:   8% (2/23)   Compressing objects:  13% (3/23)   Compressing objects:  17% (4/23)   Compressing objects:  21% (5/23)   Compressing objects:  26% (6/23)   Compressing objects:  30% (7/23)   Compressing objects:  34% (8/23)   Compressing objects:  39% (9/23)   Compressing objects:  43% (10/23)   Compressing objects:  47% (11/23)   Compressing objects:  52% (12/23)   Compressing objects:  56% (13/23)   Compressing objects:  60% (14/23)   Compressing objects:  65% (15/23)   Compressing objects:  69% (16/23)   Compressing objects:  73% (17/23)   Compressing objects:  78% (18/23)   Compressing objects:  82% (19/23)   Compressing objects:  86% (20/23)   Compressing objects:  91% (21/23)   Compressing objects:  95% (22/23)   Compressing objects: 100% (23/23)   Compressing objects: 100% (23/23), done.
+Writing objects:   2% (1/35)   Writing objects:   5% (2/35)   Writing objects:   8% (3/35)   Writing objects:  11% (4/35)   Writing objects:  14% (5/35)   Writing objects:  17% (6/35)   Writing objects:  20% (7/35)   Writing objects:  22% (8/35)   Writing objects:  25% (9/35)   Writing objects:  28% (10/35)   Writing objects:  31% (11/35)   Writing objects:  34% (12/35)   Writing objects:  37% (13/35)   Writing objects:  40% (14/35)   Writing objects:  42% (15/35)   Writing objects:  45% (16/35)   Writing objects:  48% (17/35)   Writing objects:  51% (18/35)   Writing objects:  54% (19/35)   Writing objects:  57% (20/35)   Writing objects:  60% (21/35)   Writing objects:  62% (22/35)   Writing objects:  65% (23/35)   Writing objects:  68% (24/35)   Writing objects:  71% (25/35)   Writing objects:  74% (26/35)   Writing objects:  77% (27/35)   Writing objects:  80% (28/35)   Writing objects:  82% (29/35)   Writing objects:  85% (30/35)   Writing objects:  88% (31/35)   Writing objects:  91% (32/35)   Writing objects:  94% (33/35)   Writing objects:  97% (34/35)   Writing objects: 100% (35/35)   Writing objects: 100% (35/35), 5.52 KiB | 0 bytes/s, done.
+Total 35 (delta 0), reused 0 (delta 0)
+To https://github.com/Timag/snippets
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+]0;/home/rstudio/snippets]0;rstudio@ip-172-31-32-6: ~/snippets[01;32mrstudio@ip-172-31-32-6[00m:[01;34m~/snippets[00m$ 
+[K]0;rstudio@ip-172-31-32-6: ~/snippets[01;32mrstudio@ip-172-31-32-6[00m:[01;34m~/snippets[00m$ 
+]0;/home/rstudio/snippets]0;rstudio@ip-172-31-32-6: ~/snippets[01;32mrstudio@ip-172-31-32-6[00m:[01;34m~/snippets[00m$ 
+]0;/home/rstudio/snippets]0;rstudio@ip-172-31-32-6: ~/snippets[01;32mrstudio@ip-172-31-32-6[00m:[01;34m~/snippets[00m$ git init
+Reinitialized existing Git repository in /home/rstudio/snippets/.git/
+]0;/home/rstudio/snippets]0;rstudio@ip-172-31-32-6: ~/snippets[01;32mrstudio@ip-172-31-32-6[00m:[01;34m~/snippets[00m$ git add .

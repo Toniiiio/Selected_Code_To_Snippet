@@ -7,12 +7,12 @@
     "folds" : "",
     "hash" : "0",
     "id" : "E86EBACB",
-    "lastKnownWriteTime" : 1546019285,
-    "last_content_update" : 1546019285363,
+    "lastKnownWriteTime" : 1546023923,
+    "last_content_update" : 1546023923159,
     "path" : "~/snippets/R/hello.R",
     "project_path" : "R/hello.R",
     "properties" : {
-        "cursorPosition" : "18,0",
+        "cursorPosition" : "16,20",
         "scrollLine" : "0"
     },
     "relative_order" : 1,
