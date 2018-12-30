@@ -24,6 +24,12 @@ snippet test
 removeSnippet("test")
 ```
 
+**Installation**
+
+For latest development version:
+
+```devtools::install_github('Timag/snippets')```
+
 **Combining  with keyboard shortcuts:**
 ![alt text](snippet.png "Logo Title Text 1")
 
