@@ -1,6 +1,6 @@
 # RStudio snippets programmatically
 
-This script enables you to (add/remove/read) snippets programmatically.
+The `package:snippets` enables you to (add/remove/read) snippets programmatically.
 
 (Usual way so far is to access RStudio snippets via: RStudio - Tools - Global Options - Code - Edit Snippets...)
 
