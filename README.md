@@ -2,9 +2,8 @@
 
 The `package:snippets` enables you to (add/remove/read) snippets programmatically.
 
-(Usual way so far is to access RStudio snippets via: RStudio - Tools - Global Options - Code - Edit Snippets...)
 
-**Usage:**
+**Usage:** (assigning a keyboard shortcut is recommended)
 
 ![alt text](snippet.gif "Logo Title Text 1")
 
@@ -27,6 +26,8 @@ removeSnippet("test")
 
 **Combining  with keyboard shortcuts:**
 ![alt text](snippet.png "Logo Title Text 1")
+
+(Usual way so far is to access RStudio snippets via: RStudio - Tools - Global Options - Code - Edit Snippets...)
 
 **Open issues:**
 
