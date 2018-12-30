@@ -6,9 +6,11 @@ This script enables you to (add/remove/read) snippets programmatically.
 
 **Usage:**
 
-![alt text](snippet.png "Logo Title Text 1")
 ![alt text](snippet.gif "Logo Title Text 1")
 
+
+
+Via code:
 ```
 addSnippet("test", "print('This is long code i dont want to retype everytime')")
 ```
@@ -22,6 +24,9 @@ snippet test
 ```
 removeSnippet("test")
 ```
+
+**Combining  with keyboard shortcuts:**
+![alt text](snippet.png "Logo Title Text 1")
 
 **Open issues:**
 
