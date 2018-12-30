@@ -1,4 +1,4 @@
-# RStudio_Snippets_Programmatically
+# RStudio snippets programmatically
 
 This script enables you to (add/remove/read) snippets programmatically.
 
