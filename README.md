@@ -3,7 +3,7 @@
 The `package:snippets` enables you to (add/remove/read) snippets programmatically.
 
 
-**Usage:** (assigning a keyboard shortcut is recommended)
+**Usage:** (assigning a keyboard shortcut is recommended, see: "Combining  with keyboard shortcuts:")
 
 ![alt text](snippet.gif "Logo Title Text 1")
 
