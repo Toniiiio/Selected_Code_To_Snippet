@@ -1,7 +1,5 @@
 # RStudio snippets
-[![Travis-CI Build Status](https://api.travis-ci.org/sfr/RStudio-Addin-Snippets.svg?branch=master)](https://api.travis-ci.org/sfr/RStudio-Addin-Snippets.svg?branch=master)
-[![Issue Count](https://codeclimate.com/github/Timag/snippets/issue_count.svg)](https://codeclimate.com/github/Timag/snippets)
-[![CRAN version](http://www.r-pkg.org/badges/version/snippetsaddin)](https://cran.r-project.org/package=snippetsaddin)
+[![CRAN version](http://www.r-pkg.org/badges/version/snippets)](https://cran.r-project.org/package=snippets)
 
 The `package:snippets` enables you to (add/remove/read) [snippets](https://blog.rstudio.com/2015/04/13/rstudio-v0-99-preview-code-snippets/) programmatically.
 
