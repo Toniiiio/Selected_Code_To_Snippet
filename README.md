@@ -1,6 +1,6 @@
 # RStudio snippets
 
-The `package:snippets` enables you to (add/remove/read) snippets programmatically.
+The `package:snippets` enables you to (add/remove/read) [snippets](https://blog.rstudio.com/2015/04/13/rstudio-v0-99-preview-code-snippets/) programmatically.
 
 
 **Usage:** (assigning a keyboard shortcut is recommended, see: "Combining  with keyboard shortcuts:")
